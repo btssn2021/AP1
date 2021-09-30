@@ -60,6 +60,7 @@ int main() {
     float racine=0;
     racine= sqrt(5);
     printf("%f",racine);
-
+    int carre;
+    carre= pow(2,2); // 2 puissance 2
     return 0;
 }
