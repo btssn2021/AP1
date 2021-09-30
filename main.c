@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     /************************Exercice n°1******************************/
@@ -35,5 +36,17 @@ int main() {
     printf("Nombre d'article2:");
     scanf("%f",&na2);
     printf("\nValeur moyenne=%f",((p1*na1)+(p2*na2))/(na1+na2));
+
+    /****************Exercice n°8**************************************************/
+    int id=0;
+    float mnthoraire=0,nbheures=0;
+    printf("\nEntrez l'ID de l'employé:");
+    scanf("%d",&id);
+    printf("Montant du salaire/heure:");
+    scanf("%f",&mnthoraire);
+    printf("Nombres d'heures de travail:");
+    scanf("%f",&nbheures);
+    printf("ID employé:%d\n",id);
+    printf("Salaire=%0.2f",nbheures*mnthoraire);
     return 0;
 }
