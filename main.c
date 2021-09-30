@@ -56,5 +56,10 @@ int main() {
     printf("Entrez le carburant depensé en litres");
     scanf("%3f",&carburant);
     printf("Consommation moyenne (km/lt) %f",km/carburant);
+    /***********exercice n°10***********************************************/
+    float racine=0;
+    racine= sqrt(5);
+    printf("%f",racine);
+
     return 0;
 }
