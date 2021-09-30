@@ -24,6 +24,16 @@ int main() {
     printf("Entrer le deuxième nombre entier:");
     scanf("%d",&n2);
     printf("Somme des deux nombres entiers ci dessus=%d",n1*n2);
-
+    /********************Exercice n°7*********************************************/
+    float p1=0,p2=0,na1=0,na2=0;
+    printf("\nPoids-Article1:");
+    scanf("%f",&p1);
+    printf("Nombre d'article1:");
+    scanf("%f",&na1);
+    printf("Poids-Article2:");
+    scanf("%f",&p2);
+    printf("Nombre d'article2:");
+    scanf("%f",&na2);
+    printf("\nValeur moyenne=%f",((p1*na1)+(p2*na2))/(na1+na2));
     return 0;
 }
