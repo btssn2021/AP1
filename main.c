@@ -48,5 +48,13 @@ int main() {
     scanf("%f",&nbheures);
     printf("ID employé:%d\n",id);
     printf("Salaire=%0.2f",nbheures*mnthoraire);
+    /**************Exercice n°9******************************************************/
+    int km=0;
+    float carburant=0;
+    printf("Distance total en km");
+    scanf("%d",&km);
+    printf("Entrez le carburant depensé en litres");
+    scanf("%3f",&carburant);
+    printf("Consommation moyenne (km/lt) %f",km/carburant);
     return 0;
 }
