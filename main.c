@@ -57,10 +57,14 @@ int main() {
     scanf("%3f",&carburant);
     printf("Consommation moyenne (km/lt) %f",km/carburant);
     /***********exercice n°10***********************************************/
-    float racine=0;
-    racine= sqrt(5);
-    printf("%f",racine);
-    int carre;
-    carre= pow(2,2); // 2 puissance 2
-    return 0;
+    int x1=0,x2=0,y1=0,y2=0;
+    printf("\nEntrée x1:");
+    scanf("%d",&x1);
+    printf("Entrée y1:");
+    scanf("%d",&y1);
+    printf("Entrée x2:");
+    scanf("%d",&x2);
+    printf("Entrée y2:");
+    scanf("%d",&y2);
+    printf("Distance entre les dits points:%f", sqrt(pow((x2-x1),2)+pow((y2-y1),2)));
 }
